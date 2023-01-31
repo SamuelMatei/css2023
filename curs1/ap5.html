@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	 <style>
+		a[title] {
+            color: green;
+            font-size: 15px;
+        }
+        a[href="https://www.link-academy.com"]{
+            color: blue;
+            font-size: 25px;
+        }
+        a[href $="#en/ro/"]{
+            color: blue;
+            font-size: 25px;
+        }
+        a[href="https://translate.google.com/#fr/ro/"]{
+            color: rgb(65, 93, 93);
+            font-size: 25px;
+        }
+        a[href="https://translate.google.com/#it/ro/"]{
+            color: red;
+            font-size: 25px;
+        }
+        a[href ^="https"]{
+            text-transform: uppercase;
+        }
+        a[href $=".com"]{
+            text-decoration: none;
+            font-style: italic;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+	 <div id="container">
+		<p> Lorem ipsum dolor sit amet, <a href="#" title="Titlul de ancora">consectetur</a> adipisicing elit, sed do eiusmod tempor. </p>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+		<p> Lorem ipsum dolor sit amet, consectetur <a href="#">adipisicing</a> elit, sed do eiusmod tempor. </p>
+		<p> Lorem ipsum dolor sit amet, <a href="https://www.link-academy.com">link-academy</a> elit, sed do eiusmod tempor. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi aliquam iusto neque saepe soluta tempora voluptate ducimus ratione praesentium, perspiciatis vero dolorum eum dolore eius modi dignissimos! Quaerat cupiditate, ullam?</p>
+		 
+		 <ul>
+		 	<li><a href="https://translate.google.com/#en/ro/">Engleza – Romana</a></li><p></p><p></p>
+			<li><a href="https://translate.google.com/#fr/ro/">Franceza – Romana</a></li><p></p><p></p>
+			<li><a href="https://translate.google.com/#it/ro/">Italiana - Romana</a></li>
+		 </ul>
+		 
+		 
+		 <a data-info ="intern" href="">Meniu 1</a>
+		 <a data-info ="extern" href="">Meniu 2</a>
+		 <a data-info ="intern" href="">Meniu 3</a>
+		 <a data-info ="extern" href="">Meniu 4</a>
+		  <a data-info ="intern extern" href="">Meniu 5</a>
+		 <a data-info ="intern extern" href="">Meniu 6</a>
+
+   </div>
+</body>
+</html>

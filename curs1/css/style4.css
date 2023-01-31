@@ -1,0 +1,21 @@
+div{
+
+    background-color: blueviolet;
+    border: 10px solid blue;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+div > div{
+    background-color: aqua;
+    color: brown;
+}
+div > div > div{
+    background-color: rgb(62, 177, 26);
+    color: blueviolet;
+}
+body{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
