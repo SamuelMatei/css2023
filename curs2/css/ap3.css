@@ -1,0 +1,46 @@
+#wrapper {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.text {
+    font-size: 50px;
+    font-weight: bold;
+}
+#heart {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    border: 2px solid blue;
+}
+
+ #heart:after
+{
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+
+#heart:before
+{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
