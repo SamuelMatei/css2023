@@ -1,0 +1,26 @@
+:root {
+     --primary-color: blue;
+     --secondary-color: yellow;
+     --font-color: black;
+     --bg-color: #fff;
+     --heading-color:#292922;
+    }
+    [data-theme="dark"]{
+        --primary-color: green;
+        --secondary-color:red;
+        --font-color:pink;
+        --bg-color:black;
+    }
+    body{
+        font-family: Arial, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--font-color);
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: calc(1rem + 0.25vh);
+    }
+    h1 {
+        color: var(--heading-color);
+        font-family:  Helvetica, sans-serif;
+        font-size: 2px;
+    }

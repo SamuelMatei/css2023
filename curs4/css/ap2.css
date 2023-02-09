@@ -1,0 +1,40 @@
+body {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.box {
+    background-color: black;
+    color: #fff;
+    border: 5px solid black;
+    padding: 20px;
+    font-size: 100%;
+    order: 1;
+}
+
+.box:nth-child(2n+1){
+     background-color: white;
+     color: #000;
+    
+  
+
+}
+.box:nth-child(2n+1){
+    visibility: hidden;
+}
+#wrapper{
+    width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(9,50px);
+    grid-template-rows: repeat(8,50px);
+    grid-gap: 0px;
+}
+
+.box1 {
+    order: 3;
+}
+.box2{
+    order: 2;
+}
