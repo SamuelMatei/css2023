@@ -1,0 +1,18 @@
+
+
+$yellow :               #fce473;
+$blue:                  #1d90ff;
+$green:                 #32cd32;
+$primary-color:         $blue;
+$secundary-color:       $yellow;
+
+$sans-serif:Arial, sans-serif;
+div{
+    border: 5px solid $green;
+    font-family: $sans-serif;
+    color:red($color: #000000);
+    background-color: #32cd32;
+    p{
+        color: $secundary-color;
+    }
+}
